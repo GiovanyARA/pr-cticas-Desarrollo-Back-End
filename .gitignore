@@ -1,0 +1,27 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.egg-info/
+.build/
+dist/
+db.sqlite3
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos temporales de pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos de Django collectstatic
+staticfiles/
+media/
+
+# VS Code
+.vscode/
+
+# Variables de entorno
+.env
+.env.*.local
